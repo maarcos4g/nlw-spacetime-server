@@ -11,7 +11,7 @@
     "lint": "eslint src --ext .ts --fix",
     "build": "tsup src && mkdir uploads",
     "start": "node dist/server.js",
-    "vercel-build": "npx prisma migrate deploy && mkdir upload && prisma generate && tsup src"
+    "vercel-build": "npx prisma migrate deploy && mkdir uploads && prisma generate && tsup src"
   },
   "keywords": [],
   "author": "",
