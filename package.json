@@ -9,9 +9,9 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "lint": "eslint src --ext .ts --fix",
-    "build": "tsup src && mkdir dist/uploads",
+    "build": "tsup src",
     "start": "node dist/server.js",
-    "vercel-build": "npx prisma migrate deploy && mkdir uploads && prisma generate && tsup src"
+    "vercel-build": "npx prisma migrate deploy && prisma generate && tsup src"
   },
   "keywords": [],
   "author": "",
