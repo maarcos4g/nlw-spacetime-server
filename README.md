@@ -33,6 +33,8 @@ Agora acesse a pasta e instale as dependências
 $ cd nlw-spacetime-server
 ```
 
+### Renomeie o arquivo .env.example para .env e preencha com as suas informações.
+
 Inicie o projeto
 
 ```sh
